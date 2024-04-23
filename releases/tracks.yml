@@ -1,3 +1,5 @@
 tracks:
 - name: nightly
+  prune-policy: latest
 - name: stable
+  prune-policy: unique
