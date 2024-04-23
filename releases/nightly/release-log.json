@@ -1,12 +1,5 @@
 [
   {
-    "created_at": "2024-04-23T07:02:33Z",
-    "files": [
-      "2024-04-23T07:02:33Z__master@7000fab/docker-manifests.json"
-    ],
-    "version": "master@7000fab"
-  },
-  {
     "created_at": "2024-04-23T19:51:26Z",
     "files": [
       "2024-04-23T19:51:26Z__master@7000fab/docker-manifests.json"
