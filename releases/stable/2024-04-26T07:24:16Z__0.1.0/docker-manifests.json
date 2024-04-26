@@ -1,0 +1,144 @@
+{
+  "images": {
+    "ghcr.io/mentalsmash/ref-project-debdocker:latest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:f6f6d8addc43e18afa3e5d990a53a6e6dc834e0256638fa4b13cfe3c5dc73b40",
+          "size": 1492,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:d9794b29f8d5fc2fbbb3a58ebd6a77b59c780dc452992efaedaa5ef625e07988",
+          "size": 1492,
+          "platform": {
+            "architecture": "arm64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:0a71484c37597c5b96b57a5d7b0cab665e926b2525f5e4df47dd636d8d323ce1",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:f6f6d8addc43e18afa3e5d990a53a6e6dc834e0256638fa4b13cfe3c5dc73b40",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:da951aba091b304e76cba33103c88455bf54bd0d10eebd781d9ec13a5d1afa70",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:d9794b29f8d5fc2fbbb3a58ebd6a77b59c780dc452992efaedaa5ef625e07988",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        }
+      ],
+      "annotations": {
+        "org.opencontainers.image.created": "2024-04-26T07:23:50.021Z",
+        "org.opencontainers.image.description": "Reference Implementation for a Debian/Docker Project",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.revision": "f944bfcd32f47b79b96ef2b5e49fcf2fa3c47ff4",
+        "org.opencontainers.image.source": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.title": "ref-project-debdocker",
+        "org.opencontainers.image.url": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.version": "0.1.0"
+      },
+      "manifest_hash": ""
+    },
+    "mentalsmash/ref-project-debdocker:latest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:f6f6d8addc43e18afa3e5d990a53a6e6dc834e0256638fa4b13cfe3c5dc73b40",
+          "size": 1492,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:d9794b29f8d5fc2fbbb3a58ebd6a77b59c780dc452992efaedaa5ef625e07988",
+          "size": 1492,
+          "platform": {
+            "architecture": "arm64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:0a71484c37597c5b96b57a5d7b0cab665e926b2525f5e4df47dd636d8d323ce1",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:f6f6d8addc43e18afa3e5d990a53a6e6dc834e0256638fa4b13cfe3c5dc73b40",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:da951aba091b304e76cba33103c88455bf54bd0d10eebd781d9ec13a5d1afa70",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:d9794b29f8d5fc2fbbb3a58ebd6a77b59c780dc452992efaedaa5ef625e07988",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        }
+      ],
+      "annotations": {
+        "org.opencontainers.image.created": "2024-04-26T07:23:50.021Z",
+        "org.opencontainers.image.description": "Reference Implementation for a Debian/Docker Project",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.revision": "f944bfcd32f47b79b96ef2b5e49fcf2fa3c47ff4",
+        "org.opencontainers.image.source": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.title": "ref-project-debdocker",
+        "org.opencontainers.image.url": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.version": "0.1.0"
+      },
+      "manifest_hash": ""
+    }
+  },
+  "layers": {
+    "sha256:f6f6d8addc43e18afa3e5d990a53a6e6dc834e0256638fa4b13cfe3c5dc73b40": [
+      "ghcr.io/mentalsmash/ref-project-debdocker:latest",
+      "mentalsmash/ref-project-debdocker:latest"
+    ],
+    "sha256:d9794b29f8d5fc2fbbb3a58ebd6a77b59c780dc452992efaedaa5ef625e07988": [
+      "ghcr.io/mentalsmash/ref-project-debdocker:latest",
+      "mentalsmash/ref-project-debdocker:latest"
+    ],
+    "sha256:0a71484c37597c5b96b57a5d7b0cab665e926b2525f5e4df47dd636d8d323ce1": [
+      "ghcr.io/mentalsmash/ref-project-debdocker:latest",
+      "mentalsmash/ref-project-debdocker:latest"
+    ],
+    "sha256:da951aba091b304e76cba33103c88455bf54bd0d10eebd781d9ec13a5d1afa70": [
+      "ghcr.io/mentalsmash/ref-project-debdocker:latest",
+      "mentalsmash/ref-project-debdocker:latest"
+    ]
+  }
+}
