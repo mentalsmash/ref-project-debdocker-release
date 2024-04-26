@@ -1,0 +1,95 @@
+{
+  "images": {
+    "ghcr.io/mentalsmash/ref-project-debdocker:nightly": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:13ad49d7b9619214b91731f6c04a752314a3046f7446346b6e00f8631f55cf6a",
+          "size": 1494,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:f49f18d33da154d92120f9db02864a08841002af622a0e289f482ed26a493b99",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:13ad49d7b9619214b91731f6c04a752314a3046f7446346b6e00f8631f55cf6a",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        }
+      ],
+      "annotations": {
+        "org.opencontainers.image.created": "2024-04-26T03:56:56.037Z",
+        "org.opencontainers.image.description": "Reference Implementation for a Debian/Docker Project",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.revision": "98d4f4f8b2e01c2f3492d49292c4464e750e5d64",
+        "org.opencontainers.image.source": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.title": "ref-project-debdocker",
+        "org.opencontainers.image.url": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.version": "nightly"
+      },
+      "manifest_hash": "sha256:6060b7f2ab5e844fafc7f3242e5045b572c307c8404266eeb149ff315466aa7b"
+    },
+    "mentalsmash/ref-project-debdocker:nightly": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:13ad49d7b9619214b91731f6c04a752314a3046f7446346b6e00f8631f55cf6a",
+          "size": 1494,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:f49f18d33da154d92120f9db02864a08841002af622a0e289f482ed26a493b99",
+          "size": 566,
+          "annotations": {
+            "vnd.docker.reference.digest": "sha256:13ad49d7b9619214b91731f6c04a752314a3046f7446346b6e00f8631f55cf6a",
+            "vnd.docker.reference.type": "attestation-manifest"
+          },
+          "platform": {
+            "architecture": "unknown",
+            "os": "unknown"
+          }
+        }
+      ],
+      "annotations": {
+        "org.opencontainers.image.created": "2024-04-26T03:56:56.037Z",
+        "org.opencontainers.image.description": "Reference Implementation for a Debian/Docker Project",
+        "org.opencontainers.image.licenses": "Apache-2.0",
+        "org.opencontainers.image.revision": "98d4f4f8b2e01c2f3492d49292c4464e750e5d64",
+        "org.opencontainers.image.source": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.title": "ref-project-debdocker",
+        "org.opencontainers.image.url": "https://github.com/mentalsmash/ref-project-debdocker",
+        "org.opencontainers.image.version": "nightly"
+      },
+      "manifest_hash": ""
+    }
+  },
+  "layers": {
+    "sha256:6060b7f2ab5e844fafc7f3242e5045b572c307c8404266eeb149ff315466aa7b": [
+      "ghcr.io/mentalsmash/ref-project-debdocker:nightly"
+    ],
+    "sha256:13ad49d7b9619214b91731f6c04a752314a3046f7446346b6e00f8631f55cf6a": [
+      "mentalsmash/ref-project-debdocker:nightly",
+      "ghcr.io/mentalsmash/ref-project-debdocker:nightly"
+    ],
+    "sha256:f49f18d33da154d92120f9db02864a08841002af622a0e289f482ed26a493b99": [
+      "mentalsmash/ref-project-debdocker:nightly",
+      "ghcr.io/mentalsmash/ref-project-debdocker:nightly"
+    ]
+  }
+}
